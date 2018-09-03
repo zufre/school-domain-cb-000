@@ -1,5 +1,5 @@
 class School
   def initialize(roster)
-    @roester = roester
+    @roester = roster
   end
 end
