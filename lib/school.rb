@@ -17,4 +17,10 @@ attr_reader :roster :roster
   def grade(grade)
     @roster[grade]
   end
+
+  def sort
+    self.roster.each do |grade, students|
+      students.sort!
+    end
+  end
 end
