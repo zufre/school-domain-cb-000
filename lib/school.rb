@@ -14,7 +14,7 @@ attr_reader :roster :roster
     end
   end
 
-  def grade(grade) 
-    self@roster[grade]
+  def grade(grade)
+    @roster[grade]
   end
 end
