@@ -10,6 +10,7 @@ attr_reader :roster :roster
       @roster[grade] << student
     else
       @roster[grade] = []
+      @roster[grade] << student
     end
 
   end
